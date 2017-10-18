@@ -7,7 +7,7 @@ public class LambdaTest {
 		new Thread(noArgs).start();
 		System.out.print("liyuejin");
 		//简洁方式一行代码搞定
-		new Thread(()->System.out.println("-------无参Lambda兰姆达表达式------")).start();
+		//new Thread(()->System.out.println("-------无参Lambda兰姆达表达式------")).start();
 	}
 
 }
